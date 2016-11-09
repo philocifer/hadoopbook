@@ -1,0 +1,38 @@
+2016-10-15 08:08:55,915 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-10-15 08:08:55,975 WARN [main] org.apache.hadoop.metrics2.impl.MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-reducetask.properties,hadoop-metrics2.properties
+2016-10-15 08:08:56,039 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-15 08:08:56,039 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2016-10-15 08:08:56,048 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2016-10-15 08:08:56,048 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1476544116844_0001, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7e432225)
+2016-10-15 08:08:56,182 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2016-10-15 08:08:56,389 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_0/usercache/cloudera/appcache/application_1476544116844_0001,/home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_1/usercache/cloudera/appcache/application_1476544116844_0001,/home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_2/usercache/cloudera/appcache/application_1476544116844_0001,/home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_3/usercache/cloudera/appcache/application_1476544116844_0001
+2016-10-15 08:08:56,867 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-10-15 08:08:57,223 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2016-10-15 08:08:57,265 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@34f28b34
+2016-10-15 08:08:57,280 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=130652568, maxSingleShuffleLimit=32663142, mergeThreshold=86230696, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-10-15 08:08:57,282 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1476544116844_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-10-15 08:08:57,289 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1476544116844_0001_r_000000_0: Got 1 new map-outputs
+2016-10-15 08:08:57,290 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning quickstart.cloudera:41450 with 1 to fetcher#1
+2016-10-15 08:08:57,290 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to quickstart.cloudera:41450 to fetcher#1
+2016-10-15 08:08:57,448 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=41450/mapOutput?job=job_1476544116844_0001&reduce=0&map=attempt_1476544116844_0001_m_000000_0 sent hash and received reply
+2016-10-15 08:08:57,453 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#1 about to shuffle output of map attempt_1476544116844_0001_m_000000_0 decomp: 24 len: 28 to MEMORY
+2016-10-15 08:08:57,464 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 24 bytes from map-output for attempt_1476544116844_0001_m_000000_0
+2016-10-15 08:08:57,466 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 24, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->24
+2016-10-15 08:08:57,467 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2016-10-15 08:08:57,467 INFO [fetcher#1] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: quickstart.cloudera:41450 freed by fetcher#1 in 178ms
+2016-10-15 08:08:57,471 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2016-10-15 08:08:57,476 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2016-10-15 08:08:57,477 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 17 bytes
+2016-10-15 08:08:57,482 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 1 segments, 24 bytes to disk to satisfy reduce memory limit
+2016-10-15 08:08:57,482 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 28 bytes from disk
+2016-10-15 08:08:57,483 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2016-10-15 08:08:57,483 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2016-10-15 08:08:57,484 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 17 bytes
+2016-10-15 08:08:57,565 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2016-10-15 08:08:57,773 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1476544116844_0001_r_000000_0 is done. And is in the process of committing
+2016-10-15 08:08:57,846 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1476544116844_0001_r_000000_0 is allowed to commit now
+2016-10-15 08:08:57,867 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1476544116844_0001_r_000000_0' to hdfs://quickstart.cloudera:35449/user/cloudera/target/output/_temporary/1/task_1476544116844_0001_r_000000
+2016-10-15 08:08:57,911 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1476544116844_0001_r_000000_0' done.
+2016-10-15 08:08:57,913 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2016-10-15 08:08:57,913 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2016-10-15 08:08:57,913 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.

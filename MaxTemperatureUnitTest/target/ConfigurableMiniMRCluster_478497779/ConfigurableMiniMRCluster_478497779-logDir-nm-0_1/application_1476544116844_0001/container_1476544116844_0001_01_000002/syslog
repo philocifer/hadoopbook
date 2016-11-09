@@ -1,0 +1,27 @@
+2016-10-15 08:08:50,298 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-10-15 08:08:50,364 WARN [main] org.apache.hadoop.metrics2.impl.MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-maptask.properties,hadoop-metrics2.properties
+2016-10-15 08:08:50,428 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-15 08:08:50,428 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2016-10-15 08:08:50,445 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2016-10-15 08:08:50,445 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1476544116844_0001, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@93cea6f)
+2016-10-15 08:08:50,546 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2016-10-15 08:08:50,837 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_0/usercache/cloudera/appcache/application_1476544116844_0001,/home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_1/usercache/cloudera/appcache/application_1476544116844_0001,/home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_2/usercache/cloudera/appcache/application_1476544116844_0001,/home/cloudera/bookworkspace/MaxTemperatureUnitTest/target/ConfigurableMiniMRCluster_478497779/ConfigurableMiniMRCluster_478497779-localDir-nm-0_3/usercache/cloudera/appcache/application_1476544116844_0001
+2016-10-15 08:08:51,336 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-10-15 08:08:51,837 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+2016-10-15 08:08:52,026 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: hdfs://quickstart.cloudera:35449/user/cloudera/target/input/sample.txt:0+530
+2016-10-15 08:08:52,428 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2016-10-15 08:08:52,429 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2016-10-15 08:08:52,429 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2016-10-15 08:08:52,429 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2016-10-15 08:08:52,429 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2016-10-15 08:08:52,434 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-10-15 08:08:52,479 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2016-10-15 08:08:52,479 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2016-10-15 08:08:52,479 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 45; bufvoid = 104857600
+2016-10-15 08:08:52,479 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214380(104857520); length = 17/6553600
+2016-10-15 08:08:52,488 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2016-10-15 08:08:52,491 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1476544116844_0001_m_000000_0 is done. And is in the process of committing
+2016-10-15 08:08:52,563 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1476544116844_0001_m_000000_0' done.
+2016-10-15 08:08:52,564 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2016-10-15 08:08:52,565 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2016-10-15 08:08:52,565 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.
